@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contacto</title>
+	<title>Carrito</title>
 	
 	<link rel="icon" type="image/png" sizes="32x32" href="./media/images/fav-icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./media/images/fav-icons/favicon-16x16.png">
@@ -52,30 +52,44 @@
         </section>
     </header>
 
-    <section id="contacto" class="contact_area">
-        <div class="contact_content">
-            <div class="section_title_light">
-                <span>Envianos tu mensaje</span>
-                <h2>Contactate con <span>Nosotros</span></h2>
-                <img class="separador-svg" src="./media/images/title-bottom.svg" alt="tt">
-                <p>¿No encontraste el perfume que buscabas? Contactanos</p>
-            </div>
-            <div class="contact_form">
-                <form action="https://formspree.io/f/xanogdbk" method="POST">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-                    <button type="submit">Enviar</button>
-                </form>
+    <h1>Resumen de la compra</h1>
+    
+    <main>
+        <div id="detalle">
+            <div id="cart-container" class="container_cart">
+                <script src="./js/show_cart.js"></script>
             </div>
         </div>
+    </main>
+
+    <section id="cart" class="cart_area">
+        <div class="container_two">
+            <div class="section_title">
+                <h2>Completá tus datos</h2>
+                <span>para finalizar tu compra</span><br>
+                <img class="separador-svg" src="./media/images/title-center.svg">
+            </div>           
+        </div>
+
+        <div class="contact_form">
+            <form id="formulario" action="https://formspree.io/f/xwpqlazo" method="POST">
+                <textarea id="carritoData" name="carrito" style="display:none;"></textarea>
+                <textarea id="totalCarrito" name="total" style="display:none;"></textarea>
+                
+                <label>Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                <label>Email:</label>
+                <input type="email" id="contactoEmail" name="email" placeholder="Correo electrónico" required>
+                <label>Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+                <br><br>
+                <button type="submit" id="botonEnviar">Confirmar Compra</button>
+            </form>
+        </div>
+
     </section>
+
+    <script src="./js/update_data_to_send.js"></script>
 
     <footer id="footer" class="footer_area">
         <div class="container_two">

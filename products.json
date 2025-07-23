@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Carolina Herrera Good Girl Eau de Parfum",
+    "price": 140,
+    "image": "./media/images/productos/carolina_herrera_good_girl_eau_de_parfum.png",
+    "description": "Un aroma audaz y sensual que combina almendra, café y cacao, en un frasco con forma de stiletto."
+  },
+  {
+    "id": 2,
+    "name": "Chanel No. 5 Eau de Parfum",
+    "price": 180,
+    "image": "./media/images/productos/chanel_no_5_eau_de_parfum.png",
+    "description": "El icónico perfume floral aldehídico con jazmín, rosa y sándalo. Elegancia atemporal."
+  },
+  {
+    "id": 3,
+    "name": "Dior J'adore Eau de Parfum",
+    "price": 165,
+    "image": "./media/images/productos/dior_jadore_eau_de_parfum.png",
+    "description": "Un bouquet luminoso de flores como el jazmín sambac y la rosa damascena con un toque frutal."
+  },
+  {
+    "id": 4,
+    "name": "Lancôme La Vie Est Belle Eau de Parfum",
+    "price": 130,
+    "image": "./media/images/productos/lancome_la_vie_est_belle_eau_de_parfum.png",
+    "description": "Dulce y empoderador con iris, jazmín y praliné. Una celebración de la belleza de la vida."
+  },
+  {
+    "id": 5,
+    "name": "Marc Jacobs Daisy Eau de Toilette",
+    "price": 120,
+    "image": "./media/images/productos/marc_jacobs_daisy_eau_de_toilette.png",
+    "description": "Joven, alegre y floral con notas de fresa salvaje, violeta y jazmín. Perfecto para el día a día."
+  },
+  {
+    "id": 6,
+    "name": "Yves Saint Laurent Black Opium Eau de Parfum",
+    "price": 145,
+    "image": "./media/images/productos/yves_saint_laurent_black_opium_eau_de_parfum.png",
+    "description": "Misterioso y adictivo, con café, vainilla y flores blancas. Intensamente femenino."
+  }
+]
